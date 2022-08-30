@@ -1,0 +1,12 @@
+GET http://localhost:8888/impression?platform=IOS&country_code=USA&ad_type=TV&device_id=abd123&app_id=qwer321&offer_id=zxcv456&image_id=6788
+
+###
+GET http://localhost:8888/test?name=astro
+
+
+###
+http://localhost:8888/find?platform=IOS&device=TV
+
+
+
+

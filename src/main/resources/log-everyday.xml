@@ -10,9 +10,9 @@
     <jmxConfigurator />
     <!-- 定义日志文件 输出位置 -->
     <!-- <property name="log_dir" value="C:/test" />-->
-    <property name="log_dir" value="/Users/wof/Downloads/study/javaProj/Log" />
+    <property name="log_dir" value="/mnt/astro/Log" />
     <!-- 日志最大的历史 30天 -->
-    <property name="maxHistory" value="30" />
+    <property name="maxHistory" value="15" />
 
     <!-- ConsoleAppender 控制台输出日志 -->
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">

@@ -113,8 +113,8 @@ class ApImongoApplicationTests {
 
         for (int i = 0; i < len; i++) {
 
-            Document document = new Document("$unset", new Document("ad", ""));
-            collection.updateOne(Filters.exists("ad", true), document);
+            Document document = new Document("$unset", new Document("click_url:", ""));
+            collection.updateOne(Filters.exists("click_url:", true), document);
 
         }
 
